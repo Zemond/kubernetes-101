@@ -25,9 +25,8 @@ curl localhost:5000
 cd ../Kubernetes
 kubectl create -f db-pod.yml
 kubectl create -f db-svc.yml
-kubectl create -f web-pod.yml
+kubectl create -f web-deploy.yml
 kubectl create -f web-svc.yml
-kubectl create -f web-rc.yml
 ```
 
 ## Check that the Pods and Services are created
